@@ -118,6 +118,7 @@ h3.clickHere {
 
 .tableHead {
     border: 1px solid black;
+    background-color: #4f5a68;
 }
 
 .clicked {
