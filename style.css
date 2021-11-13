@@ -56,7 +56,7 @@ header {
 /* Semester */
 
 .sem {
-  margin: 5%;
+  margin-bottom: 3%;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -64,20 +64,20 @@ em.clickontable {
     position: relative;
     bottom: 10px;
     color: red;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 2px black;
 }
 
 /* Radio */
 .radio {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 6%;
-  padding: 8%;
+  margin-bottom: 3%;
+  padding: 4%;
 }
 
 /* Routine */
 .routine {
-  margin: 3px;
+  margin: 4px;
 }
 
 table,
@@ -89,9 +89,6 @@ td {
 }
 
 .routine table {
-  width: 100%;
-  line-height: 1.1rem;
-  font-size: 0.8rem;
   margin-bottom: 3rem;
 }
 
@@ -121,6 +118,7 @@ h3.clickHere {
     background-color: #4f5a68;
 }
 
+/* Clicked Animation */
 .clicked {
     background-color: rgba(0, 17, 255, 0.589);
     border-radius: 10%;
@@ -131,17 +129,18 @@ h3.clickHere {
 /* Footer */
 
 #footer {
-  padding-bottom: 3%;
-  margin-top: 10%;
-  padding-top: 12%;
+  margin-top: 5%;
+  padding-top: 15%;
+  padding-bottom: 8%;
   text-align: center;
   background-color: white;
   color: black;
+  letter-spacing: 2px;
 }
 
 #footer .fab {
   margin: 20px 10px;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 #footer a {
@@ -155,6 +154,8 @@ h3.clickHere {
   .logo {
     width: 30%;
     line-height: 2rem;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
   }
   .logo h3 {
     font-size: 1.5rem;
@@ -164,4 +165,13 @@ h3.clickHere {
     margin-bottom: 5px;
     font-size: 2rem;
   }  
+  
+  .sem {
+    margin: 2%;
+  }
+
+  .radio {
+    padding: 2%;
+  }
+  
 }
